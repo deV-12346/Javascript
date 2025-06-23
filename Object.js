@@ -10,7 +10,7 @@ let obj = {
 }
 // let shallowCopy = Object.assign({},obj)  //1st way 
 let shallowCopy = {...obj} // 2nd way using spred operator
-
+obj.name ="anku"
 obj.address.Distt = "Solan"
 console.log(obj)
 console.log(shallowCopy)
